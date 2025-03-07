@@ -3,7 +3,8 @@
  */
 
 import {AppRegistry} from 'react-native';
-import App from './App';
 import {name as appName} from './app.json';
+import MultiColumnExample from './containers/FlatList-multiColumn'
 
-AppRegistry.registerComponent(appName, () => App);
+AppRegistry.registerComponent(appName, () => MultiColumnExample);
+// AppRegistry.registerComponent(appName, () => () => null);
